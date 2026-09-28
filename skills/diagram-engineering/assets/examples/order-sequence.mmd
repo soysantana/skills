@@ -1,0 +1,17 @@
+sequenceDiagram
+    actor Customer
+    participant API
+    participant OrderService
+    participant Payment
+    Customer->>API: Place order
+    API->>OrderService: createOrder(command)
+    OrderService->>Payment: authorize(amount)
+    alt authorized
+        Payment-->>OrderService: authorization
+        OrderService-->>API: order
+        API-->>Customer: 201 Created
+    else declined
+        Payment-->>OrderService: declined
+        OrderService-->>API: failure
+        API-->>Customer: 422 Unprocessable Entity
+    end

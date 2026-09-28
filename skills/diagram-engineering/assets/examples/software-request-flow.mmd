@@ -1,0 +1,6 @@
+flowchart LR
+    C[Client] -->|HTTP request| API[API Controller]
+    API --> UC[Use Case]
+    UC --> R[Repository Port]
+    R --> DB[(Database Adapter)]
+    UC -->|domain event| E[[Event Port]]
