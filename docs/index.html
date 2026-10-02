@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Skills para asistentes de programacion: arquitectura limpia, diagramas de software y buenas practicas mantenibles."
+    />
+    <title>Skills para asistentes de programacion</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Navegacion principal">
+        <a class="brand" href="#inicio">Skills</a>
+        <div class="nav-links">
+          <a href="#que-es">Que es</a>
+          <a href="#skills">Skills</a>
+          <a href="#instalacion">Instalacion</a>
+          <a href="https://github.com/soysantana/skills">GitHub</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Repositorio de skills para AI coding assistants</p>
+          <h1>Consigue skills buenas para trabajar mejor con asistentes de programacion.</h1>
+          <p class="lead">
+            Una coleccion de skills mantenibles, basadas en principios de ingenieria de
+            software, para guiar a agentes de IA cuando disenan, revisan, documentan o
+            refactorizan sistemas.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#instalacion">Instalar skills</a>
+            <a class="button secondary" href="#skills">Ver coleccion</a>
+          </div>
+        </div>
+
+        <aside class="install-panel" aria-label="Comando de instalacion rapida">
+          <span class="panel-label">Instalacion rapida</span>
+          <code>npx skills add soysantana/skills</code>
+        </aside>
+      </section>
+
+      <section id="que-es" class="section split">
+        <div>
+          <p class="eyebrow">Que es este proyecto</p>
+          <h2>Skills pequenos, claros y accionables.</h2>
+        </div>
+        <div class="section-copy">
+          <p>
+            Este repositorio reune instrucciones especializadas para que un asistente de
+            programacion aplique criterios consistentes en tareas concretas. La idea no es
+            llenar el contexto con teoria, sino activar una guia practica cuando el trabajo
+            lo necesita.
+          </p>
+          <p>
+            Cada skill define cuando debe usarse, que decisiones debe priorizar, que
+            referencias puede consultar y como debe responder. Eso ayuda a conseguir
+            resultados mas predecibles y faciles de revisar.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <p class="eyebrow">Para que sirve</p>
+        <h2>Mejor criterio para tareas de software.</h2>
+        <div class="feature-grid">
+          <article>
+            <h3>Arquitectura</h3>
+            <p>Separar reglas de negocio, casos de uso, adaptadores e infraestructura sin ceremonias innecesarias.</p>
+          </article>
+          <article>
+            <h3>Diagramas</h3>
+            <p>Crear y auditar diagramas como modelos de ingenieria, no como decoracion visual.</p>
+          </article>
+          <article>
+            <h3>Revision</h3>
+            <p>Encontrar riesgos reales, dependencias incorrectas, ambiguedades y oportunidades de mejora incremental.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <p class="eyebrow">Skills disponibles</p>
+        <h2>La coleccion inicial.</h2>
+        <div class="skill-list">
+          <article class="skill-card">
+            <div>
+              <h3>clean-architecture</h3>
+              <p class="version">Version 1.0.0</p>
+            </div>
+            <p>
+              Ayuda a disenar, implementar, revisar y refactorizar sistemas usando
+              principios de Clean Architecture. Enfocado en fronteras, direccion de
+              dependencias, casos de uso, puertos, adaptadores y testabilidad.
+            </p>
+            <a href="https://github.com/soysantana/skills/tree/main/skills/clean-architecture">Ver skill</a>
+          </article>
+
+          <article class="skill-card">
+            <div>
+              <h3>diagram-engineering</h3>
+              <p class="version">Version 0.5.9</p>
+            </div>
+            <p>
+              Ayuda a crear, explicar, auditar y mejorar diagramas de software y sistemas:
+              Mermaid, UML, C4, ERD, secuencia, estado, dependencias, flujos y mas.
+            </p>
+            <a href="https://github.com/soysantana/skills/tree/main/skills/diagram-engineering">Ver skill</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="instalacion" class="section install">
+        <div>
+          <p class="eyebrow">Instalacion</p>
+          <h2>Agrega toda la coleccion o instala una skill especifica.</h2>
+        </div>
+        <div class="code-grid">
+          <div>
+            <span>Todas las skills</span>
+            <code>npx skills add soysantana/skills</code>
+          </div>
+          <div>
+            <span>Solo Clean Architecture</span>
+            <code>npx skills add soysantana/skills --skill clean-architecture</code>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>MIT License. Creado por <a href="https://github.com/soysantana">soysantana</a>.</p>
+    </footer>
+  </body>
+</html>
