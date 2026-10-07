@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Skills para asistentes de programacion: arquitectura limpia, diagramas de software y buenas practicas mantenibles."
+      content="Skills para asistentes de programacion: arquitectura limpia, diagramas de software, APIs listas para produccion y buenas practicas mantenibles."
     />
     <title>Skills para asistentes de programacion</title>
     <link rel="stylesheet" href="./styles.css" />
@@ -81,6 +81,10 @@
             <h3>Revision</h3>
             <p>Encontrar riesgos reales, dependencias incorrectas, ambiguedades y oportunidades de mejora incremental.</p>
           </article>
+          <article>
+            <h3>APIs en produccion</h3>
+            <p>Auditar seguridad, confiabilidad, observabilidad, pruebas y configuracion antes de desplegar backends.</p>
+          </article>
         </div>
       </section>
 
@@ -112,6 +116,19 @@
             </p>
             <a href="https://github.com/soysantana/skills/tree/main/skills/diagram-engineering">Ver skill</a>
           </article>
+
+          <article class="skill-card">
+            <div>
+              <h3>production-ready-api</h3>
+              <p class="version">Version 1.0.0</p>
+            </div>
+            <p>
+              Audita y mejora APIs backend antes de produccion. Enfocado en
+              autenticacion, autorizacion, validacion, errores, base de datos,
+              observabilidad, seguridad, pruebas y despliegue.
+            </p>
+            <a href="https://github.com/soysantana/skills/tree/main/skills/production-ready-api">Ver skill</a>
+          </article>
         </div>
       </section>
 
@@ -128,6 +145,10 @@
           <div>
             <span>Solo Clean Architecture</span>
             <code>npx skills add soysantana/skills --skill clean-architecture</code>
+          </div>
+          <div>
+            <span>Solo Production Ready API</span>
+            <code>npx skills add soysantana/skills --skill production-ready-api</code>
           </div>
         </div>
       </section>

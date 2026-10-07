@@ -1,5 +1,9 @@
 # Skills
 
+[![skills.sh](https://skills.sh/b/soysantana/skills)](https://skills.sh/soysantana/skills)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Deploy](https://github.com/soysantana/skills/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/soysantana/skills/actions/workflows/pages/pages-build-deployment)
+
 A collection of skills for AI programming assistants, based on software engineering principles and best practices.
 
 ## Installation
@@ -33,6 +37,13 @@ Helps design, implement, refactor, and review software systems using Clean Archi
 **Author:** R. C. Martin, M. Fowler, E. Evans, V. Vernon, S. Brown, G. Booch et al., C. Larman, M. Kleppmann, E. Tufte, C. Ware, S. McCloud, G. Kim et al., D. Anderson & S. Wardley.
 
 Helps Software architecture, system design, modeling & visualization.
+
+### production-ready-api
+
+**Version:** `1.0.0`
+**Based on:** API production readiness, security, reliability, observability, testing, and deployment best practices.
+
+Audits and improves backend APIs before production deployment. Focuses on authentication, authorization, validation, error handling, database usage, observability, security, testing, and deployment configuration.
 
 ## License
 
