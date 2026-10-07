@@ -1,5 +1,9 @@
 # Skills
 
+[![skills.sh](https://skills.sh/b/soysantana/skills)](https://skills.sh/soysantana/skills)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Deploy](https://github.com/soysantana/skills/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/soysantana/skills/actions/workflows/pages/pages-build-deployment)
+
 A collection of skills for AI programming assistants, based on software engineering principles and best practices.
 
 ## Installation
