@@ -34,6 +34,13 @@ Helps design, implement, refactor, and review software systems using Clean Archi
 
 Helps Software architecture, system design, modeling & visualization.
 
+### production-ready-api
+
+**Version:** `1.0.0`
+**Based on:** API production readiness, security, reliability, observability, testing, and deployment best practices.
+
+Audits and improves backend APIs before production deployment. Focuses on authentication, authorization, validation, error handling, database usage, observability, security, testing, and deployment configuration.
+
 ## License
 
 See the `LICENSE` file for details.
