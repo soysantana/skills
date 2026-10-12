@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Skills para asistentes de programacion: arquitectura limpia, diagramas de software, APIs listas para produccion y buenas practicas mantenibles."
+      content="Skills para asistentes de programacion: arquitectura limpia, diagramas de software, forensica de fallos, APIs listas para produccion y buenas practicas mantenibles."
     />
     <title>Skills para asistentes de programacion</title>
     <link rel="stylesheet" href="./styles.css" />
@@ -82,6 +82,10 @@
             <p>Encontrar riesgos reales, dependencias incorrectas, ambiguedades y oportunidades de mejora incremental.</p>
           </article>
           <article>
+            <h3>Forensica</h3>
+            <p>Analizar fallos, incidentes y lanzamientos riesgosos con evidencia, cronologia y acciones verificables.</p>
+          </article>
+          <article>
             <h3>APIs en produccion</h3>
             <p>Auditar seguridad, confiabilidad, observabilidad, pruebas y configuracion antes de desplegar backends.</p>
           </article>
@@ -119,6 +123,19 @@
 
           <article class="skill-card">
             <div>
+              <h3>failure-forensics</h3>
+              <p class="version">Version 1.0.0</p>
+            </div>
+            <p>
+              Investiga bugs, incidentes, outages, flaky tests y lanzamientos riesgosos
+              con lineas de tiempo, premortems, analisis causal y acciones correctivas
+              concretas.
+            </p>
+            <a href="https://github.com/soysantana/skills/tree/main/skills/failure-forensics">Ver skill</a>
+          </article>
+
+          <article class="skill-card">
+            <div>
               <h3>production-ready-api</h3>
               <p class="version">Version 1.0.0</p>
             </div>
@@ -145,6 +162,10 @@
           <div>
             <span>Solo Clean Architecture</span>
             <code>npx skills add soysantana/skills --skill clean-architecture</code>
+          </div>
+          <div>
+            <span>Solo Failure Forensics</span>
+            <code>npx skills add soysantana/skills --skill failure-forensics</code>
           </div>
           <div>
             <span>Solo Production Ready API</span>

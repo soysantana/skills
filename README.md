@@ -38,6 +38,13 @@ Helps design, implement, refactor, and review software systems using Clean Archi
 
 Helps Software architecture, system design, modeling & visualization.
 
+### failure-forensics
+
+**Version:** `1.0.0`
+**Based on:** blameless postmortems, premortems, resilience engineering, SRE incident review, chaos engineering, and flaky-test triage.
+
+Investigates incidents, bugs, outages, flaky tests, risky launches, and hypothetical failures using evidence-first timelines, causal analysis, and concrete corrective actions.
+
 ### production-ready-api
 
 **Version:** `1.0.0`
